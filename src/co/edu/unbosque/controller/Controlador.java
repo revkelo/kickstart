@@ -22,6 +22,11 @@ public class Controlador {
 	}
 
 	public void ejecutar() {
+		
+		while (true) {
+			try {
+				
+		
 
 		vp.getConsola().imprimirString("Taller");
 		vp.getConsola().imprimirString(
@@ -36,6 +41,10 @@ public class Controlador {
 
 		default:
 			break;
+		}
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
 		}
 
 	}
